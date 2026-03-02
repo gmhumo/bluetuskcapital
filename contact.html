@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | BlueTusk Projects</title>
+    <meta name="description" content="Get in touch with BlueTusk Projects, a leading real estate company specializing in wholesale residential properties. Contact us for inquiries about property sales, management, and our services.">
+    <meta name="keywords" content="BlueTusk Projects, contact, real estate, wholesale residential properties, property sales, property management, inquiries">
+    <meta name="author" content="BlueTusk Projects">
+    <!-- Add Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+    header {
+        background-color: #191a1b;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+        margin: 0;
+        padding: 20px;
+        animation: slideIn 1.5s ease-in-out;
+    }
+    nav {
+        background-color: #272f37;
+        padding: 10px 0;
+        text-align: center;
+        animation: fadeIn 2.5s ease-in-out;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        animation: bounceIn 3s ease-in-out;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    section {
+        padding: 20px;
+        max-width: 1200px;
+        margin: auto;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        animation: fadeInUp 2s ease-in-out;
+    }
+    footer {
+        background-color: #191a1b;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+        animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes slideIn {
+        from {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    @keyframes bounceIn {
+        0% {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+        50% {
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    @keyframes fadeInUp {
+        from {
+            transform: translateY(50px);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>
+<body>
+    <nav>
+        <header>
+            <h1>BlueTusk | Real Estate</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="newsletter.html">Newsletter</a>
+            <a class="currentPage">Contact</a>
+        </nav>
+    </nav>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-envelope"></i> Personal Email: jzt2604@gmail.com</p>
+        <p><i class="fas fa-envelope"></i> Work Email: support@bluetuskprojects.com</p>
+        <p><i class="fas fa-phone"></i> Phone: +27 73 454 6371</p>
+        <p><i class="fas fa-map-marker-alt"></i> Address: 123 Factories Rd, Modderfontein, South Africa</p>
+    </section>
+    <footer>
+        <p>
+            <script>
+                var theDate=new Date()
+                document.write("&copy; " + theDate.getFullYear())
+                document.write(" - BlueTusk | Last modified: ")
+                var theModifiedDate=new Date(document.lastModified)
+                document.write(theModifiedDate.toDateString())
+            </script>
+            <br>Powered by "BlueTusk Projects" Web Hosting
+        </p>
+    </footer>
+</body>
+</html>

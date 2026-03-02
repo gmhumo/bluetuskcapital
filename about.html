@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | BlueTusk Real Estate</title>
+    <meta name="description" content="Learn more about BlueTusk Real Estate, a leading company specializing in wholesale residential properties. Our mission is to provide exceptional service and create value for our clients through property sales and management.">
+    <meta name="keywords" content="BlueTusk, real estate, wholesale residential properties, property sales, property management, about us">
+    <meta name="author" content="BlueTusk Projects">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #191a1b;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+        header h1 {
+            margin: 0;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        header p {
+            animation: slideIn 2s ease-in-out;
+        }
+        nav {
+            background-color: #272f37;
+            padding: 10px 0;
+            text-align: center;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            animation: bounceIn 3s ease-in-out;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 2s ease-in-out;
+        }
+        footer {
+            background-color: #191a1b;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.5); opacity: 0; }
+            50% { transform: scale(1.2); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About BlueTusk Real Estate</h1>
+        <p>Leading the way in wholesale residential properties</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="currentPage">About</a>
+        <a href="newsletter.html">Newsletter</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Our Mission</h2>
+        <p>At BlueTusk Real Estate, our mission is to provide exceptional service and create value for our clients through property sales and management. We specialize in wholesale residential properties, offering a wide range of options to meet the needs of our diverse clientele.</p>
+
+        <h2>Our Team</h2>
+        <p>Our team is composed of experienced professionals who are passionate about real estate and dedicated to helping our clients achieve their goals. We work closely with buyers, sellers, and investors to ensure a seamless and successful transaction process.</p>
+
+        <h2>Our Services</h2>
+        <ul>
+            <li>Wholesale Residential Property Sales</li>
+            <li>Property Management</li>
+            <li>Investment Opportunities</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to learn more about our services, please don't hesitate to contact us. We look forward to working with you!</p>
+    </section>
+    <section id="contact">
+        <p>Email: support@bluetuskproject.com</p>
+        <p>Phone: +27 73 454 6371</p>
+        <p>Address: 123 Main Street, City, Country</p>
+    </section>
+    <footer>
+        <p>
+            <script>
+                var theDate = new Date()
+                document.write("&copy; " + theDate.getFullYear())
+                document.write(" - BlueTusk | Last modified: ")
+                var theModifiedDate = new Date(document.lastModified)
+                document.write(theModifiedDate.toDateString())
+            </script>
+            <br>Powered by "BlueTusk Projects" Web Hosting
+        </p>
+    </footer>
+
+</body>
+</html>
